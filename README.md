@@ -1,6 +1,7 @@
 # Hey there!
 
-### This project is a great starting point for a .NET 8 console application. Here’s what’s cool about it:
+### This project is a great starting point for a .NET 8 console application. 
+Here’s what’s cool about it:
 
 1- Dual Logging: I’ve set up Serilog to log both to the console and to files asynchronously, super handy for tracking what happened and when!
 
