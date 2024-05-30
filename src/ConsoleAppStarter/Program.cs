@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 
-var hostBuilder = CreateHostBuilder(args).Build();
+using IHost hostBuilder = CreateHostBuilder(args).Build();
 
 using var scope = hostBuilder.Services.CreateScope();
 
